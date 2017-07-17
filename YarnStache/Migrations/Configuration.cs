@@ -1,9 +1,11 @@
 namespace YarnStache.Migrations
+
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using YarnStache.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<YarnStache.Models.ApplicationDbContext>
     {
@@ -27,6 +29,11 @@ namespace YarnStache.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            context.Yarns.AddOrUpdate(
+                y => y.ColorName,
+                new Yarn { Id= Guid.NewGuid(), ColorFamily = "Yellow" , ColorName = "Sunshine", Brand = "I Love This Yarn", Weight = "Worsted", FiberType= "Acrylic", DyeLot= "1234", Quantity=1 },
+                new Yarn { Id = Guid.NewGuid(), ColorFamily = "Yellow" , ColorName = "Submarine", Brand = "Beatles", Weight = "Light", FiberType = "Cotton", DyeLot = "4321", Quantity = 2 }
+                );
         }
     }
 }
