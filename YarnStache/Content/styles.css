@@ -1,0 +1,181 @@
+/*General*/
+
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+    font-family: 'Andika', sans-serif;
+}
+
+body {
+    font-size: 2em;
+}
+
+section {
+    min-height: 100vh;
+}
+
+h2 {
+  display: inline-block;
+  font-size:200%;
+  line-height: 1;
+  font-family: 'Clicker Script';
+  font-weight: 600;
+}
+
+h3 {
+  font-size:2em;
+  font-family: 'Clicker Script';
+  font-weight: 700;
+  color: white;
+}
+
+/*Header*/
+
+.header {
+    background:linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Images/yarnia.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.header-inline, .header-inline h1 {
+    display: inline-block;
+    color: white;
+}
+
+.header-inline h1 {
+    padding: 15px 25px 5px 25px;
+    vertical-align: top;
+    margin: 0;
+    font-size: 6em;
+    font-weight: bold;
+    font-family: 'Clicker Script', cursive;
+}
+
+.header-inline img {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0 0 0 0;
+}
+
+/*Navigation*/
+
+.main-menu {
+    padding: 0;
+}
+
+.main-menu a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Andika', sans-serif;
+}
+
+.main-menu li {
+    display: inline;
+    border-left: 1px solid ghostwhite;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.main-menu li:first-child {
+    border-left: none;
+}
+
+.main-menu li a:hover {
+    color:lightseagreen;
+}
+
+/*Content*/
+
+.bkgrnd {
+    background-color:#008b8b;
+    padding: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.bkgrnd img {
+    margin-top: 1.5rem;
+}
+
+.bkgrnd h3 {
+    margin-top: 1.5rem;
+}
+
+.add-margin {
+    margin: 1em 0 0 0;
+}
+
+.social-media {
+    padding: 0;
+    vertical-align: top;
+    margin: 0 0 2rem 0;
+    font-size: 2.05rem;
+    font-family: 'Clicker Script', cursive;
+}
+
+.social-media h2 {
+    line-height: 4rem;
+    margin-bottom: 0; 
+}
+
+.social-media .social-media-icons {
+    font-size: 0.8em;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+}
+
+.fa {
+    color: black;
+}
+
+.fa:hover {
+    color:mediumvioletred;
+}
+ 
+#contact {
+    background: linear-gradient(135deg, rgba(192,255,255,0.9) 0%,rgba(192,255,255,0.63) 43%,rgba(125,185,232,0.15) 100%), url(/Images/spoolbuttons.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 2rem 0;
+    font-size: 2.05rem;
+    font-weight: 600;
+    font-family: 'Andika', sans-serif;
+    color: black;
+}
+#contact h2 {
+    padding: 0;
+    vertical-align: top;
+    margin:2rem 0;
+    font-size: 10rem;
+    font-family: 'Clicker Script', cursive;
+    color: mediumvioletred;
+    text-shadow: white 2px 3px;
+}
+
+.btn {
+    background-color:mediumvioletred;
+    color: white;
+}
+
+.btn:hover {
+    background-color:lightseagreen;
+    color:white;
+}
+
+#HomeButton {
+    position:fixed;
+    bottom:3rem;
+    right:3rem;
+    opacity:0.5;
+    display:none;
+    background-color:mediumvioletred;
+    color:white;
+}
+
+#HomeButton:hover {
+    opacity:1;
+}
+
+.form-control {
+    background-color: whitesmoke;
+}

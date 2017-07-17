@@ -2,30 +2,156 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+        <!-- Tag Along Row-->
+        <!--<section>-->
+        <div class="container">
+            <div class="social-media row">
+                <div class="col-md-8">
+                    <h2 class="pull-right">Tag Along with Me on Social Media</h2>
+                </div>
+                <div class="col-md-4">
+
+                    <!--Social Media Icons Font Awesome-->
+                    <h2 class="social-media-icons">
+                        <a href="https://www.facebook.com/KraftMeKnots">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-square-o fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </span>
+                        </a>
+                        <a href="https://www.pinterest.com/sycamorerose">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-square-o fa-stack-2x"></i>
+                                <i class="fa fa-pinterest fa-stack-1x"></i>
+                            </span>
+                        </a>
+                        <a href="https://twitter.com/pickynickisue">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-square-o fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x"></i>
+                            </span>
+                        </a>
+                    </h2>
+                </div>
+            </div>
+
+            <!--Carousel Starts Here-->
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="carousel-KraftyPics" class="carousel slide" data-ride="carousel" data-interval="5000">
+                        <!-- Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-KraftyPics" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-KraftyPics" data-slide-to="1"></li>
+                            <li data-target="#carousel-KraftyPics" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="/Images/EyeballBow.jpg" alt="Halloween Wreath">
+                                <div class="carousel-caption">
+                                    Eyeball Halloween Wreath
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/Images/CFingerlessGloves.jpg" alt="Crocheted Fingerless Gloves">
+                                <div class="carousel-caption">
+                                    Crocheted Fingerless Gloves
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/Images/HarrietElephante.jpg" alt="Crochet Elephant">
+                                <div class="carousel-caption">
+                                    Crochet Elephant named Harriet Elephante
+                                </div>
+                            </div>
+                        </div>
+                        <!--Carousel Controls -->
+                        <a class="left carousel-control" href="#carousel-KraftyPics" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-KraftyPics" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="ekg">
+                        <img src="Images/crochetekg.png" class="center-block img-responsive" alt="Crochet Hook with EKG read out">
+                    </div>
+                </div>
+                <!--Carousel End-->
+                <!--About Me Column-->
+                <div class="col-md-4">
+                    <div class="bkgrnd">
+                        <img src="Images/squareme.png" class="center-block img-rounded">
+                        <h3 class="text-center add-margin">Hi I'm Nicki!</h3>
+                    </div>
+                    <p class="text-justify"> Welcome to my Krafty Website! I'm so glad you stopped by to look at my creations. I've always been a very artsy and creative person. I love to draw and paint and over the years I have learned many mediums of crafts mostly through self teaching and a crafty family (Hi Mom!) Creating something from scratch and seeing it take shape is so rewarding and exciting to me. I started young with finger crochet, coloring, and counted cross stitch and I have progressed over the years to many others including crochet. Take a peek at my gallery. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Page with Form-->
+    <section id="contact">
+        <div class="container">
+            <h2>Drop Me a Line</h2>
+            <div class="row">
+                <div class="col-md-7">
+                    <p>
+                        Need something crafted? Want to add that personal handmade touch? Just say Kraft Me Knots! I'll do the work for
+                        you!
+                    </p>
+                    <form>
+                        <div class="form-inline">
+                            <div class="form-group">
+                                <label for="Krafter">Name</label>
+                                <input type="text" class="form-control  input-lg" id="Krafter" placeholder="Krafty Kate">
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control input-lg" id="Email" placeholder="krafty.kate@example.com">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <textarea class="form-control input-lg" rows="3" placeholder="Questions? Comments? Requests?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-default">Submit</button>
+                    </form>
+                    <p> You can also find me here... </p>
+                    <a href="https://www.facebook.com/KraftMeKnots">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.pinterest.com/sycamorerose">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-pinterest fa-stack-1x"></i>
+                        </span>
+                    </a>
+                    <a href="https://twitter.com/pickynickisue">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a class="btn btn-default btn-lg" id="HomeButton" href="#Home" role="button">Home</a>
+
+    <!--JQuery for Bootstrap-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

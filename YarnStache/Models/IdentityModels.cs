@@ -29,5 +29,7 @@ namespace YarnStache.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<YarnStache.Models.Yarn> Yarns { get; set; }
     }
 }
