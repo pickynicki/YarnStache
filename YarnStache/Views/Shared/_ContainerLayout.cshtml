@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta name="description" content="Kraft Me Knots Website">
+    <meta name="author" content="Nicki Morris/Code Louiville Student">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Andika|Clicker+Script" rel="stylesheet">
+
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Kraft Me Knots</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="header text-center">
+        <div class="header-inline">
+            <h1>Kraft Me Knots</h1>
+
+            <!--Nav Bar-->
+            <nav class="main-menu" id="main-menu" role="navigation">
+                <ul>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("YarnStache", "Index", "Yarns")</li>
+                    <li> <a href="#contact">Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+
+    @RenderBody()
+
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

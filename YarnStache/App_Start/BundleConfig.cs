@@ -25,6 +25,7 @@ namespace YarnStache
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/FontAwesome/css/font-awesome.css",
                       "~/Content/styles.css"));
         }
     }

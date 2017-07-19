@@ -1,15 +1,17 @@
 ﻿@model IEnumerable<YarnStache.Models.Yarn>
 
 @{
-    ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "YarnStache";
+    Layout = "~/Views/Shared/_ContainerLayout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>YarnStache</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", "Yarns", new {@class = "btn btn-primary"})
 </p>
+<div class="table-responsive">
+
 <table class="table">
     <tr>
         <th>
@@ -68,3 +70,4 @@
 }
 
 </table>
+</div>
