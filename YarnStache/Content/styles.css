@@ -22,11 +22,10 @@ h2 {
   font-weight: 600;
 }
 
-h3 {
-  font-size:2em;
+.catalog {
+  font-size:25%;
   font-family: 'Clicker Script';
-  font-weight: 700;
-  color: white;
+  color:mediumvioletred;
 }
 
 .center-block {

@@ -243,7 +243,6 @@
     <Content Include="Content\FontAwesome\fonts\FontAwesome.otf" />
     <Content Include="Images\Licenses\37776064-colorful-plastic-buttons-license %281%29.pdf" />
     <Content Include="Images\Licenses\37776064-colorful-plastic-buttons-license.pdf" />
-    <Content Include="ReadMe.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
