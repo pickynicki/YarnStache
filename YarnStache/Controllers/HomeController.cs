@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace YarnStache.Controllers
+
+    //Home View Index.cshtml - Home page from FEWD project Kraft Me Knots
 {
     public class HomeController : Controller
     {

@@ -15,11 +15,12 @@ section {
 }
 
 h2 {
-  display: inline-block;
+  display: block;
   font-size:200%;
   line-height: 1;
   font-family: 'Clicker Script';
   font-weight: 600;
+  text-align: center;
 }
 
 .catalog {

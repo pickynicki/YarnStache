@@ -25,6 +25,7 @@ namespace YarnStache.Models
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+            //Overriding Default DbInitializer
             Database.SetInitializer(new ApplicationDbInitializer());
         }
 
@@ -39,6 +40,8 @@ namespace YarnStache.Models
 
     public class ApplicationDbInitializer : CreateDatabaseIfNotExists<ApplicationDbContext>
     {
+        //Seed yarns
+
         protected override void Seed(ApplicationDbContext context)
         {
             context.Yarns.AddOrUpdate(
